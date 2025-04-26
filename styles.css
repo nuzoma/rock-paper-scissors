@@ -30,17 +30,17 @@ body, p {
   background-color: white;
   border-radius: 2px;
   text-align: center;
-  padding: 6px 15px;
+  padding: 6px 18px;
 }
 
 .score-text {
-  font-size: .6rem;
+  font-size: .8rem;
   color: hsl(229, 64%, 46%);
   font-weight: 700;
 }
 
 .score-points {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
   color: hsl(229, 25%, 31%);
 }
