@@ -28,7 +28,7 @@ body, p {
 
 .score {
   background-color: white;
-  border-radius: 2px;
+  border-radius: 4px;
   text-align: center;
   padding: 6px 18px;
 }
@@ -52,7 +52,7 @@ body, p {
 }
 
 .triangle-image {
-  width: 180px;
+  width: 250px;
   display: block;
   margin: 0px auto;
   margin-top: 100px;
@@ -72,36 +72,53 @@ body, p {
 }
 
 .rock {
-  padding: 8px 3px;
+  padding: 15px 9px;
   top: -20%;
-  left: 15%;
+  left: 1%;
 }
 
 .paper {
-  padding: 4px 2px;
+  padding: 12px 10px;
   top: -20%;
-  left: 56%;
+  left: 60%;
 }
 
 .scissors {
-  padding: 4px 2px;
+  padding: 12px 10px;
   top: 55%;
-  left: 36%;
+  left: 32%;
 }
 
 .one {
-  border: 10px solid red;
+  border: 10px solid #dd405d;
 }
 
 .two {
-  border: 10px solid blue;
+  border: 10px solid #5671f5;
 }
 
 .three {
-  border: 10px solid yellow;
+  border: 10px solid #eca922;
 }
 
 .game-btn .rock, .game-btn .paper, .game-btn .scissors {
-  width: 60px;
+  width: 70px;
   padding: 10px 15px;
+}
+
+.rules {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0px 50px;
+}
+
+.rules-btn {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #141539;
+  color: white;
+  font-weight: 600;
+  padding: 4px 20px;
+  border: 2px solid #606e85;
+  border-radius: 4px;
+  margin: auto;
 }
