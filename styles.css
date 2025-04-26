@@ -117,6 +117,7 @@ body, p {
   background-color: #141539;
   color: white;
   font-size: 1.1rem;
+  cursor: pointer;
   font-weight: 600;
   padding: 4px 20px;
   border: 2px solid #606e85;
