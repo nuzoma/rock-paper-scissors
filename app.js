@@ -6,7 +6,7 @@ const playAgainEl = document.getElementById('play-again');
 
 const gameOptions = ['Rock', 'Paper', 'Scissors'];
 let score = 0;
-scoreEl.textContent = score
+scoreEl.textContent = score;
 
 
 rockEl.addEventListener('click', function() {
