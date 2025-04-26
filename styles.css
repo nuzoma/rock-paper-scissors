@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1f3756;
+}
+
+body, p {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.logo {
+  width: 60px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+  border: 2px solid hsl(217, 16%, 45%);
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.score {
+  background-color: white;
+  border-radius: 2px;
+  text-align: center;
+  padding: 6px 10px;
+}
+
+.score-text {
+  font-size: .6rem;
+  color: hsl(229, 64%, 46%);
+  font-weight: 700;
+}
+
+.score-points {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(229, 25%, 31%);
+}
