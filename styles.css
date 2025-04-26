@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #1f3756;
+  background: #141539;
 }
 
 body, p {
@@ -35,7 +35,7 @@ body, p {
 
 .score-text {
   font-size: .8rem;
-  color: hsl(229, 64%, 46%);
+  color: hsl(238, 48%, 15%);
   font-weight: 700;
 }
 
