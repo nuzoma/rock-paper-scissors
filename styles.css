@@ -44,3 +44,64 @@ body, p {
   font-weight: 700;
   color: hsl(229, 25%, 31%);
 }
+
+.game {
+  position: relative;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.triangle-image {
+  width: 180px;
+  display: block;
+  margin: 0px auto;
+  margin-top: 100px;
+  height: auto;
+}
+
+.game-btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  padding: 10px;
+}
+
+.rock {
+  padding: 8px 3px;
+  top: -20%;
+  left: 15%;
+}
+
+.paper {
+  padding: 4px 2px;
+  top: -20%;
+  left: 56%;
+}
+
+.scissors {
+  padding: 4px 2px;
+  top: 55%;
+  left: 36%;
+}
+
+.one {
+  border: 10px solid red;
+}
+
+.two {
+  border: 10px solid blue;
+}
+
+.three {
+  border: 10px solid yellow;
+}
+
+.game-btn .rock, .game-btn .paper, .game-btn .scissors {
+  width: 60px;
+  padding: 10px 15px;
+}
