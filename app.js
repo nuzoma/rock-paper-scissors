@@ -1,10 +1,13 @@
 const rockEl = document.getElementById('rock');
 const paperEl = document.getElementById('paper');
 const scissorsEl = document.getElementById('scissors');
+const scoreEl = document.getElementById('score-el');
 const playAgainEl = document.getElementById('play-again');
 
 const gameOptions = ['Rock', 'Paper', 'Scissors'];
 let score = 0;
+scoreEl.textContent = score
+
 
 rockEl.addEventListener('click', function() {
     const housePick = gameOptions[Math.floor(Math.random() * gameOptions.length)];
@@ -12,15 +15,15 @@ rockEl.addEventListener('click', function() {
     if (housePick === 'Scissors') {
         console.log('You Win.')
         score += 1;
-        console.log(score)
+        scoreEl.textContent = score
     } else if (housePick === 'Rock') {
         console.log('Draw.')
         score = score
-        console.log(score)
+        scoreEl.textContent = score
     } else {
         console.log('You Lose.')
         score = score - 1;
-        console.log(score)
+        scoreEl.textContent = score
     }
 })
 
@@ -30,15 +33,15 @@ paperEl.addEventListener('click', function() {
     if (housePick === 'Scissors') {
         console.log('You Lose.')
         score -= 1;
-        console.log(score)
+        scoreEl.textContent = score
     } else if (housePick === 'Rock') {
         console.log('You Win.')
         score += 1;
-        console.log(score)
+        scoreEl.textContent = score
     } else {
         console.log('Draw.')
         score = score;
-        console.log(score)
+        scoreEl.textContent = score
     }
 })
 
@@ -48,14 +51,14 @@ scissorsEl.addEventListener('click', function() {
     if (housePick === 'Scissors') {
         console.log('Draw.')
         score = score;
-        console.log(score)
+        scoreEl.textContent = score
     } else if (housePick === 'Rock') {
         console.log('You Lose.')
         score -= 1;
-        console.log(score)
+        scoreEl.textContent = score
     } else {
         console.log('You Win.')
         score += 1;
-        console.log(score)
+        scoreEl.textContent = score
     }
 })
