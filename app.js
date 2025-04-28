@@ -3,6 +3,7 @@ const paperEl = document.getElementById('paper');
 const scissorsEl = document.getElementById('scissors');
 const scoreEl = document.getElementById('score-el');
 const playAgainEl = document.getElementById('play-again');
+const userPickEl = document.getElementById('user-pick');
 
 const gameOptions = ['Rock', 'Paper', 'Scissors'];
 let score = 0;
@@ -10,6 +11,10 @@ scoreEl.textContent = score;
 
 
 rockEl.addEventListener('click', function() {
+    userPickEl.innerHTML = `
+    <img src="./images/icon-rock.svg" alt="" class="rock">
+    `
+
     const housePick = gameOptions[Math.floor(Math.random() * gameOptions.length)];
     console.log(housePick);
     if (housePick === 'Scissors') {

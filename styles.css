@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #141539;
+  background: #1f3756;
 }
 
 body, p {
@@ -22,6 +22,7 @@ body, p {
   display: flex;
   justify-content: space-between;
   width: 90%;
+  max-width: 550px;
   margin: 20px auto;
   border: 2px solid hsl(217, 16%, 45%);
   border-radius: 4px;
@@ -37,7 +38,7 @@ body, p {
 
 .score-text {
   font-size: .8rem;
-  color: hsl(238, 48%, 15%);
+  color: hsl(214, 47%, 23%);
   font-weight: 700;
 }
 
@@ -50,6 +51,7 @@ body, p {
 .game {
   position: relative;
   width: 90%;
+  max-width: 300px;
   margin: 40px auto;
 }
 
@@ -116,13 +118,37 @@ body, p {
 
 .rules-btn {
   font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: #141539;
+  background-color: #1f3756;
   color: white;
   font-size: 1.1rem;
   cursor: pointer;
   font-weight: 600;
-  padding: 4px 20px;
+  padding: 4px 30px;
   border: 2px solid #606e85;
-  border-radius: 4px;
+  border-radius: 6px;
   margin: auto;
 }
+
+.score-line {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 300px;
+  margin: 50px auto;
+}
+
+.score-line p {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: .9rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+/* .dummy-img {
+  background-color: #282f52;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px auto;
+} */
