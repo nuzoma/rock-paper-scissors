@@ -155,7 +155,7 @@ body, p {
 
 .modal-container {
   width: 90%;
-  height: 90%;
+  height: 85%;
   margin: 50px auto;
   background-color: white;
   border-radius: 4px;
@@ -179,7 +179,7 @@ body, p {
 }
 
 .rules-img {
-  max-width: 200px;
+  max-width: 250px;
   margin: 70px auto;
 }
 
