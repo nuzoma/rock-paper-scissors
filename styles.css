@@ -152,3 +152,33 @@ body, p {
   border-radius: 50%;
   margin: 20px auto;
 } */
+
+.modal-container {
+  width: 90%;
+  margin: 50px auto;
+  background-color: white;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.rules-img {
+  max-width: 200px;
+  margin: 70px auto;
+}
+
+.close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+}
