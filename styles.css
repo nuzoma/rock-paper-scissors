@@ -157,6 +157,8 @@ body, p {
   width: 90%;
   margin: 50px auto;
   background-color: white;
+  display: none;
+  position: fixed;
 }
 
 .modal {
