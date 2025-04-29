@@ -158,7 +158,6 @@ body, p {
   height: 95%;
   margin: 30px auto;
   background-color: white;
-  border-radius: 4px;
   display: none;
   position: fixed;
   z-index: 1;
