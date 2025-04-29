@@ -4,6 +4,9 @@ const scissorsEl = document.getElementById('scissors');
 const scoreEl = document.getElementById('score-el');
 const playAgainEl = document.getElementById('play-again');
 const userPickEl = document.getElementById('user-pick');
+const rulesBtnEl = document.getElementById('rules-btn');
+const closeBtnEl = document.getElementById('close-btn');
+const modalEl = document.getElementById('modal-container');
 
 const gameOptions = ['Rock', 'Paper', 'Scissors'];
 let score = 0;
@@ -67,3 +70,13 @@ scissorsEl.addEventListener('click', function() {
         scoreEl.textContent = score
     }
 })
+
+rulesBtnEl.addEventListener('click', function() {
+    modalEl.style.display = 'block';
+})
+
+closeBtnEl.addEventListener('click', function() {
+    modalEl.style.display = 'none';
+})
+
+

@@ -155,10 +155,15 @@ body, p {
 
 .modal-container {
   width: 90%;
+  height: 80%;
   margin: 50px auto;
   background-color: white;
+  border-radius: 4px;
   display: none;
   position: fixed;
+  z-index: 1;
+  left: 5%;
+  top: 0;
 }
 
 .modal {
@@ -166,6 +171,11 @@ body, p {
   flex-direction: column;
   text-align: center;
   padding: 40px 0px;
+}
+
+.modal h2 {
+  color: #1f3756;
+  font-size: 1.5rem;
 }
 
 .rules-img {
@@ -177,6 +187,7 @@ body, p {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   margin: auto;
   width: 40px;
   height: 40px;
