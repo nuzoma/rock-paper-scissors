@@ -155,15 +155,15 @@ body, p {
 
 .modal-container {
   width: 90%;
-  height: 85%;
-  margin: 50px auto;
+  height: 95%;
+  margin: 30px auto;
   background-color: white;
   border-radius: 4px;
   display: none;
   position: fixed;
   z-index: 1;
   left: 5%;
-  top: 0;
+  top: -2%;
 }
 
 .modal {
