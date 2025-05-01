@@ -84,4 +84,5 @@ newGameEl.addEventListener('click', () => {
     gameScreen.classList.remove('hidden');
     battleScreen.classList.add('hidden');
     scoreEl.textContent = 0 
+    score = 0
 });
