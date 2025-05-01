@@ -132,6 +132,7 @@ body, p {
 .score-line {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 90%;
   max-width: 300px;
   margin: 50px auto;
@@ -144,14 +145,6 @@ body, p {
   color: white;
   text-align: center;
 }
-
-/* .dummy-img {
-  background-color: #282f52;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin: 20px auto;
-} */
 
 .modal-container {
   width: 90%;
@@ -193,4 +186,83 @@ body, p {
   border: none;
   padding: 8px;
   border-radius: 50%;
+}
+
+.hidden {
+  display: none;
+}
+
+.battle-screen { 
+  margin: 0px auto;
+  text-align: center;
+}
+
+.choice-display {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1f3756;
+}
+
+#user-pick { 
+  border: 10px solid #5671f5; 
+} 
+
+#house-pick { 
+  border: 10px solid #eca922; 
+} 
+
+#result-text {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: white;
+}
+
+.versus p {
+  font-size: 2.5rem;
+}
+
+.loading {
+  background: #282f52;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.result-text {
+  margin-bottom: 10px;
+}
+
+.play-again, .new-game {
+  background: white;
+  color: #1f3756;
+  padding: 8px 35px;
+  margin: 20px 10px 5px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: .9rem;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.new-game {
+  margin-top: px;
+  padding: 8px 36px;
+  background-color: #1f3756;
+  color: white;
+  border: 2px solid white;
 }

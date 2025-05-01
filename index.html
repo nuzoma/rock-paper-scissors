@@ -10,13 +10,6 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <!--
-  <button id="rock">Rock</button>
-  <button id="paper">Paper</button>
-  <button id="scissors">Scissors</button>
-  <button id="play-again">Play Again</button>
-  -->
-
   <div class="container">
     <section class="header">
       <img src="./images/logo.svg" alt="Rock Paper Scissors logo image" class="logo">
@@ -26,32 +19,47 @@
       </div>
     </section>
     <section class="body">
-      <div class="game">
-        <img src="./images/bg-triangle.svg" alt="" class="triangle-image">
-        <button id="rock" class="game-btn one rock"><img src="./images/icon-rock.svg" alt="" class="rock"></button>
-        <button id="paper" class="game-btn two paper"><img src="./images/icon-paper.svg" alt="" class="paper"></button>
-        <button id="scissors" class="game-btn three scissors"><img src="./images/icon-scissors.svg" alt="" class="scissors"></button>
-      </div>
-      <div class="rules">
-        <button class="rules-btn" id="rules-btn">RULES</button>
-      </div>
-      <!-- <div class="score-line">
-        <div class="user-pick">
-          <div class="dummy-img user" id="user-pick"></div>
-          <p>YOU PICKED</p>
+      <div class="game-screen">
+        <div class="game">
+          <img src="./images/bg-triangle.svg" alt="" class="triangle-image">
+          <button id="rock" class="game-btn one rock"><img src="./images/icon-rock.svg" alt="" class="rock"></button>
+          <button id="paper" class="game-btn two paper"><img src="./images/icon-paper.svg" alt="" class="paper"></button>
+          <button id="scissors" class="game-btn three scissors"><img src="./images/icon-scissors.svg" alt="" class="scissors"></button>
         </div>
-        <div class="house-pick" id="house-pick">
-          <div class="dummy-img house"></div>
-          <p>HOUSE PICKED</p>
+        <div class="rules">
+          <button class="rules-btn" id="rules-btn">RULES</button>
         </div>
-      </div> -->
-      <div class="modal-container" id="modal-container">
+      </div>
+      <section class="battle-screen hidden">
+        <div class="score-line">
+          <div class="user-pick">
+            <div class="choice-display" id="user-pick"></div>
+            <p>YOU PICKED</p>
+          </div>
+
+          <div class="versus">
+            <p>VS</p>
+          </div>
+      
+          <div class="house-pick">
+            <div class="choice-display" id="house-pick">?</div>
+            <p>HOUSE PICKED</p>
+          </div>
+        </div>
+        <div class="result-section">
+          <p id="result-text" class="result-text"></p>
+          <button id="play-again" class="play-again">PLAY AGAIN</button>
+          <button id="new-game" class="new-game">NEW GAME</button>
+        </div>
+      
+      </section>
+      <section class="modal-container" id="modal-container">
         <div class="modal" id="modal">
           <h2>RULES</h2>
           <img src="./images/image-rules.svg" class="rules-img" alt="Rules of the game">
           <button id="close-btn" class="close-btn"><img src="./images/icon-close.svg" alt="The close button image"></button>
         </div>
-      </div>
+      </section>
     </section>
   </div>
 
