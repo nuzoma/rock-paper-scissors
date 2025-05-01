@@ -186,6 +186,7 @@ body, p {
   border: none;
   padding: 8px;
   border-radius: 50%;
+  background-color: #e1e4ed;
 }
 
 .hidden {
@@ -265,4 +266,18 @@ body, p {
   background-color: #1f3756;
   color: white;
   border: 2px solid white;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-container {
+    width: 700px;
+    height: 83%;
+    margin: 30px auto;
+    background-color: white;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 25%;
+    top: 1%;
+  }
 }
